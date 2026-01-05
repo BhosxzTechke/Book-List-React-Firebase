@@ -102,7 +102,7 @@ function LoginPage() {
         
         <div className="container login-page">
           <section>
-            <h1>Welcome to the Book App</h1>
+            <h1>Welcome to the bossKe Books Library</h1>
             <p>Login or create an account to continue</p>
             <div className="login-type">
               <button 
