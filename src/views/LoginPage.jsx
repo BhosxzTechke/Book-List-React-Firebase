@@ -103,7 +103,7 @@ function LoginPage() {
         <div className="container login-page">
           <section>
             <h1>WELCOME ANTIKS BOOKS</h1>
-            <p>Login or create an account to continue</p>
+            <p>Login or create mag create ka nag account yawa</p>
             <div className="login-type">
               <button 
                 className={`btn ${loginType == 'login' ? 'selected' : ''}`}
