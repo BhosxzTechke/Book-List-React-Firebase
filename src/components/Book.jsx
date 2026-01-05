@@ -11,8 +11,7 @@ function Book({book}) {
     const [filter, filterby] = useState("")
     
 
-    const [search, searchby] = useState("")
-
+    
 
     function handleToggleRead(e, id, isRead) {
         e.preventDefault();
