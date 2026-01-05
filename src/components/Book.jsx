@@ -1,11 +1,16 @@
 import { Link } from 'react-router-dom';
 import {useDispatch} from 'react-redux';
 import {toggleRead} from '../store/booksSlice.js';
+import { useState } from 'react';
   
 function Book({book}) {
     
     const dispatch = useDispatch();
+
+
+    const [filter, filterby] = useState("")
     
+
 
 
     function handleToggleRead(e, id, isRead) {
