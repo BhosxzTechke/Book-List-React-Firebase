@@ -25,7 +25,7 @@ export const notesSlice = createSlice({
     ],
 
 
-    
+
     
   reducers: {
     addNote: (notes, action) => {
@@ -34,9 +34,9 @@ export const notesSlice = createSlice({
       notes.push(newNote);
     },
 
-    eraseBookNotes: (notes, action) => {
-        return notes.filter(note => note.book_id != action.payload);
-    }
+    // eraseBookNotes: (notes, action) => {
+    //     return notes.filter(note => note.book_id != action.payload);
+    // }
   }
 })
 

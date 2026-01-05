@@ -120,7 +120,11 @@ function SingleBookPage() {
             </div> 
 
             
-            :  <div><p>Loading</p></div>
+            :  
+            
+            
+            
+            <div><p>Loading</p></div>
             }
             
 

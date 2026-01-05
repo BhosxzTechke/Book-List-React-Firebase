@@ -133,7 +133,7 @@ function Notes({bookId}) {
               : fetchStatus == 'success' ?
 
               <div>
-              <p>Please wait for a while.</p>
+              <p>This book doesnt have notes yet. Use the form below to add a note</p>
               </div>
 
               :  <p>loading on erasing</p>
