@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function BooksPage() {
 
-  const pageTitle = "📖 Book List with Router, Redux & Firebase";
+  const pageTitle = "Test Deployment";
 
 
   const dispatch = useDispatch();
